@@ -1,4 +1,5 @@
-let word = prompt("Enter Your Word")
+let word = prompt("Enter Your Word");
+word = word.toLowerCase();
 let reversed = "";
  for(let i = word.length - 1 ; i>=0 ; i--){
     reversed += word[i];
